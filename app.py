@@ -157,5 +157,6 @@ def bulk_analyze():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
+    pass
     # For local development
     # app.run(debug=True, host='0.0.0.0', port=5000)
